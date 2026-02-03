@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "გააკეთე SOLID-ის დავალება",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "გააგზავნე დავალება",
+      "completed": true
+    }
+  ]
+}

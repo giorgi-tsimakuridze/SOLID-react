@@ -1,0 +1,26 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.task-item:hover {
+  transform: scale(1.02);
+}
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
